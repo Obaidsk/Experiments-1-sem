@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+      background: lightblue;
+      
+    }.h1
+    {
+      text-align: center;
+      color: yellow;
+    }.header{
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      
+    } .btn{
+      color: black;
+      background-color: blue;
+    }
+      
+    }.Gender{
+      text-align: center;
+    }.Cources{
+      text-align: center;
+    }
+    
+    
+  </style>
+  <body>
+    
+      <h1 class="h1"> Student Registration Form </h1>
+      <div class="header"> 
+      <label>First name</label>
+      <input type="text" name="First name" size="17"><br><br>
+      <label>Second name </label>
+      <input type="text" name="Second name" size="15"><br><br>
+      <label>Last name </label>
+      <input type="text" name="Last name" size="15"><br><br>
+      <label>Mothers name </label>
+      <input type="text" name="Mothers name" size="15"><br><br>
+      <label>Phone number </label>
+      <input type="text" name="phone number"value="+91" size="15"><br><br>
+      <label>E-mail </label>
+      <input type="text" name="Email" size="15"><br><br>
+      
+     
+    <div class="Cources"</div> 
+    
+      <label >Cources</label>
+      <select>
+        <option value="B.tech">B.TECH</option>
+        <option value="M.tech">M.tech</option>
+        <option value="MBA">MBA</option>
+        <option value="BBA">BBA</option>
+      </select>
+       
+      <div class="Gender"
+      <label>Gender</label>
+      <select>
+        <option type="MALE">MALE</option>
+        <option type="FEMALE">FEMALE</option>
+        
+      </select><br><br>
+       
+        
+      <button class="btn">SUBMIT</button>
+      
+      </div>
+            </div>
+              </div>
+  </body>
+</html>
